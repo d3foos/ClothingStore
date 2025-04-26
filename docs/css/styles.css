@@ -23,7 +23,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-    
+
     font-family: var(--font-family);
     margin-top: 1.5em;
     margin-bottom: 0.5em;
@@ -72,7 +72,7 @@ a, button {
     align-items: center;
     justify-content: center;
     color: white;
-   
+
 }
 .hero-content { text-align: center; }
 .hero .btn {
@@ -158,26 +158,20 @@ a, button {
     background: #218838;
 }
 
-/* --- FOOTER white background --- */
-footer {
-    background: #f8f9fa;
-    text-align: center;
-    
-    color: #6c757d;
-}
+
 .about-bg {
-        background: url('../images/1.jpg') center/cover no-repeat;
-        min-height: 100vh;
-        background-attachment: fixed;
-    }
+    background: url('../images/1.jpg') center/cover no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
 .text-box {
-     background: rgba(255, 255, 255, 0.95);  
-     padding: 2rem;
-     max-width: 800px;
-     margin: 3rem auto;
-     border-radius: 8px;
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
- }
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 3rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 .hero {
     position: relative;
@@ -185,7 +179,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
 }
 
 /* the white/semi-opaque box in the center */
@@ -197,7 +191,7 @@ footer {
     max-width: 600px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    
+
 }
 
 /* headings and btn inherit from existing styles */
@@ -215,7 +209,7 @@ footer {
 .page-container {
     max-width: 14000px;
     margin: 0 auto;
- 
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -241,7 +235,7 @@ footer {
 
 /* MAIN CONTENT: center form */
 .main-content {
-    flex: 1;                    
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,10 +266,10 @@ footer {
     color: white;
     border-radius: 4px;
     cursor: pointer;
-    
+
 }
 #login-form button[type="submit"]:hover {
-    background: grey;          
+    background: grey;
 }
 .or-signup {
     text-align: center;
@@ -323,7 +317,7 @@ footer {
 
 /* MAIN CONTENT: center the signup form */
 .main-content {
-    flex: 1;                      
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -384,11 +378,11 @@ footer {
     color: blue;
     text-decoration: none;
 }
-/* FOOTER */
+
 footer {
     text-align: center;
-    margin-top: 12rem;
-
+    margin-top: 8.4rem;
+    background: #f8f9fa;
     font-size: 0.9rem;
     color: #666;
 }
@@ -402,10 +396,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     max-width: 1200px;
-    margin: 4rem auto; 
+    margin: 4rem auto;
     gap: 2rem;
     padding: 0 1rem;
     margin-top: -20rem;
+
 }
 
 .product-card {
@@ -452,4 +447,13 @@ footer {
     width: 100%;
     height: 250px;
     object-fit: cover;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
 }
