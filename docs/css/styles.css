@@ -402,9 +402,10 @@ footer {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 800px;
+    margin: 4rem auto; 
     gap: 2rem;
-    padding: 2rem;
-    margin-top: 3rem;
+    padding: 0 1rem;
 }
 
 .product-card {
@@ -433,4 +434,22 @@ footer {
 .product-card p {
     margin-bottom: 1rem;
     font-weight: bold;
+}
+.product-card {
+    background: #ffffffee;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
