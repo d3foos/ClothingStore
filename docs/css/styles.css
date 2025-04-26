@@ -40,6 +40,7 @@ a, button {
 .hero-text-box,
 .text-box {
     color: inherit;
+    margin-top: -20rem;
 }
 .navbar {
     display: flex;
@@ -48,6 +49,7 @@ a, button {
     padding: 1rem 2rem;
     background: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 0rem;
 }
 .navbar .logo {
     font-size: 1.5rem;
@@ -402,10 +404,11 @@ footer {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    max-width: 800px;
+    max-width: 1200px;
     margin: 4rem auto; 
     gap: 2rem;
     padding: 0 1rem;
+    margin-top: -20rem;
 }
 
 .product-card {
